@@ -52,16 +52,27 @@ background-position: left;
     padding-left: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gold;
-    border-left: 10px solid;
+    /* border-left: 10px ; */
 }
 #web-dev-experience{
     border-left: 7px solid;
-    border-images:linear-gradient(blue,cyan);
+    border-image:linear-gradient(red,blue);
     border-image-slice: 1;
 }
 #full-stack-experience{
     border-left: 7px solid;
-    border-images:linear-gradient(blue,cyan);
+    border-image:linear-gradient(green,yellow);
     border-image-slice: 1; 
 }
+footer p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: monospace;
+    color: #383838;
+}
 
+footer p a {
+    text-decoration: none;
+    color: #f17942;
+}
